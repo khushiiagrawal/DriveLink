@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+.navbar {
+  margin-bottom: 30px;
+}
+
+.navbar-nav {
+  flex: 1;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar-brand {
+  margin-left: 1rem; 
+}
+
+.navbar-collapse {
+  margin-right: 1rem; 
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+}
+
+.col-lg-6 wow fadeInUp {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+}
+
+.card.mb-3 {
+  width: 1200px;
+  height: 250px;
+  transition: transform 0.3s ease-in-out;
+  background-color: rgb(34, 33, 33); /* Change card background color to black */
+  color: white; /* Change text color to white */
+}
+
+.card.mb-3:hover {
+  transform: scale(1.1);
+}
+
+.col-md-4 {
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.col-md-4 img {
+  height: 100%;
+  width: auto;
+  object-fit: cover; /* Ensures the image covers the container, cropping if necessary */
+}
+
+.card-body {
+  color: white; /* Change text color to white */
+}
+.card-title{
+  text-align: center;
+}
+.head{
+  text-align:center ;
+  margin-bottom: 30px;
+  font-family: "Roboto Slab"
+
+}

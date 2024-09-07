@@ -1,0 +1,61 @@
+.navbar-nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar-brand {
+    margin-left: 1rem; 
+}
+.navbar-collapse {
+    margin-right: 1rem; 
+}
+
+
+.custom-btn{
+    
+    display: block;
+    width: 100%;
+    padding: 12px; 
+    background-color: #000000; 
+    color: #ffffff; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer;
+    font-size: 18px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    transition: background-color 0.3s, transform 0.3s; 
+}
+/* header */
+
+.nav-link {
+    color:black;
+}
+.modify-color{
+    background-color:antiquewhite;
+    color: aliceblue;
+}
+.currentColor {
+    color: rgb(0, 0, 0);
+}
+.nav-pills{
+    margin-right: 10vh;
+}
+.margin-svg{
+    margin-left: 10vh;
+}
+.container {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+.container input {
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.container label {
+    font-weight: bold;
+}
+

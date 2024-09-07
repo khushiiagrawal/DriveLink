@@ -1,0 +1,232 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chat{
+    margin-top: 8px;
+    text-align: center;
+    border-radius: 5px;
+}
+.click {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.click:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+.click img {
+    max-width: 100%; /* Ensure the image doesn't exceed the container */
+    border-radius: 12px;
+}
+
+.click h3 {
+    margin-top: 10px; /* Add some spacing between the image and the heading */
+}
+
+
+.navbar-nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.navbar-brand {
+    margin-left: 1rem; /* Adjust this value as needed for more/less space */
+}
+.navbar-collapse {
+    margin-right: 1rem; /* Adjust this value as needed for more/less space */
+}
+h2{
+    text-align: center;
+}
+.getstarted{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 1200px;
+    padding-left: 325px;
+}
+.user{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login{
+    
+    align-items: center;
+    height: 50px;
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+}
+.col-lg-6 wow fadeInUp{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+}
+.card.mb-3 {
+    width: 1200px;
+    height: 250px;
+    transition: transform 0.3s ease-in-out; /* Add transition for smooth animation */
+}
+
+.card.mb-3:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.text{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.type{
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.foot
+{
+    background-color: white;
+    color: black;
+}
+.trust{
+    align-items: center;
+    text-align: center;
+}
+.box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.box h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.box p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.box ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.box ul li {
+    color: #333;
+    margin-bottom: 10px;
+}
+/* foteer */
+/* Basic reset and container */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #f8f9fa; /* Light gray background for footer */
+    padding: 40px 20px;
+    padding-bottom: 0px;
+    color: #6c757d; /* Medium gray for text */
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-col {
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-col h5 {
+    margin-bottom: 15px;
+    color: #343a40; /* Dark gray for headings */
+  }
+  
+   
+  .footer-col ul, 
+  .footer-col a {
+    color: #6c757d; /* Medium gray for text */
+    text-decoration: none;
+  }
+  .footer-col p{
+    color: #6c757d; /* Medium gray for text */
+    text-decoration: none;
+    margin-top: 20px;
+
+  }
+  
+  .footer-col ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-col ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col ul li a {
+    color: #6c757d; /* Medium gray for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-col ul li a:hover {
+    color: #007bff; /* Blue color for links on hover */
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    background-color: #343a40; /* Dark gray background */
+    color: white; /* White text */
+    padding: 0px;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    margin-top: 0px;
+  }
+  

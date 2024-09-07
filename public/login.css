@@ -1,0 +1,11 @@
+.navbar-nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar-brand {
+    margin-left: 1rem; 
+}
+.navbar-collapse {
+    margin-right: 1rem; 
+}

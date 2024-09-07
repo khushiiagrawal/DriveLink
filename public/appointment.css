@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding-top: 0px;
+    margin-bottom: 100px; /* To ensure the content is not hidden under the fixed navbar */
+}
+
+.navbar-nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-brand {
+    margin-left: 1rem; 
+}
+
+.navbar-collapse {
+    margin-right: 1rem; 
+}
+
+
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column; /* Stack inputs vertically */
+    margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px;
+    margin-bottom: 10px; /* Space between inputs */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #000;
+}
+
+.btn {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    background-color: #0e0e0e!important; /* Changed button color to Bootstrap primary */
+    color: rgb(254, 254, 254) !important;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+    color: white;
+}
+.helpme{
+  
+    display: flex;
+    justify-content: center;
+    background-color: 
+    
+}
+.help
+{    margin: 5%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3%;
+    padding: 20px;.helpme{
+  
+    display: flex;
+    justify-content: center;
+    
+}
+.help
+{    margin: 5%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 3%;
+    padding: 20px;
+    
+}
+}

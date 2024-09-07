@@ -1,0 +1,46 @@
+.navbar-nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar-brand {
+    margin-left: 1rem; 
+}
+.navbar-collapse {
+    margin-right: 1rem; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profile {
+    margin-right: 120px;
+}
+
+.profile img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.info {
+    max-width: 600px;
+    border: 2px solid black;
+    padding: 8px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.experience {
+    margin-top: 20px;
+}
